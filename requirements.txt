@@ -1,0 +1,17 @@
+# LiveKit Interrupt Handler - Requirements
+
+# Core dependencies
+pytest>=7.0.0
+pytest-asyncio>=0.21.0
+
+# Optional development dependencies
+black>=23.0.0
+flake8>=6.0.0
+mypy>=1.0.0
+pytest-cov>=4.0.0
+
+# For production deployment
+# livekit>=0.10.0  # Uncomment when integrating with real LiveKit
+
+# Note: This handler is designed to work with LiveKit Agents
+# but can run standalone for testing and demonstration
